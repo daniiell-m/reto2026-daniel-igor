@@ -1,0 +1,1 @@
+1 fila añadida; dni: 12313211L, nombre: Omar, apellido: Ciao, telefono: 212131232, mail: omar@gmail.com,rol: 1, contraseña: 123.

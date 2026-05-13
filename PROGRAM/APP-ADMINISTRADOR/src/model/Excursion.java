@@ -4,14 +4,14 @@ public class Excursion extends Reserva{
 	
 	private String nombre_Empresa;
 	private String visita;
-	private int hora;
-	private int dia;
+	private String hora;
+	private String dia;
 	private int aforo;
 
 	public Excursion() {
 	}
 
-	public Excursion(int cod_reserva,String cif_empresa,String dni_persona, String nombre_Empresa, String visita, int hora, int dia, int aforo) {
+	public Excursion(int cod_reserva,String cif_empresa,String dni_persona, String nombre_Empresa, String visita, String hora, String dia, int aforo) {
 		super(cod_reserva,cif_empresa,dni_persona);
 		this.nombre_Empresa = nombre_Empresa;
 		this.visita = visita;
@@ -36,19 +36,19 @@ public class Excursion extends Reserva{
 		this.visita = visita;
 	}
 
-	public int getHora() {
+	public String getHora() {
 		return hora;
 	}
 
-	public void setHora(int hora) {
+	public void setHora(String hora) {
 		this.hora = hora;
 	}
 
-	public int getDia() {
+	public String getDia() {
 		return dia;
 	}
 
-	public void setDia(int dia) {
+	public void setDia(String dia) {
 		this.dia = dia;
 	}
 

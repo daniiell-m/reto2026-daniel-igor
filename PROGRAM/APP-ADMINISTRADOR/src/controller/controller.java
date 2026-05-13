@@ -12,14 +12,18 @@ import javax.swing.plaf.ColorUIResource;
 import javax.swing.table.DefaultTableModel;
 
 import dao.*;
+import model.Excursion;
 import model.Persona;
+import model.Reserva;
 import view.*;
 
 public class controller {
 	private inicioDeSesion inicio=new inicioDeSesion();
 	private ArrayList <Persona> personas=new ArrayList<>();
+	private ArrayList <Excursion> excursiones=new ArrayList<>();
 	private registrarse regis=new registrarse();
 	private clientes cli=new clientes();
+	private reservas res=new reservas();
 	private app App=new app();
 	private crearCliente crear=new crearCliente();
 	private modificarCliente modificarCli=new modificarCliente();
@@ -108,6 +112,12 @@ public class controller {
 					Object [] persona= {personas.get(i).getDni(),personas.get(i).getNombre(),personas.get(i).getApellido(),personas.get(i).getTelefono(),personas.get(i).getMail(),personas.get(i).getContrasenya()};
 					App.modeloCli.addRow(persona);
 					}
+					excursiones=res.datosExcursion();
+					for(int i=0;i<excursiones.size();i++) {
+					Object [] excursion= {excursiones.get(i).getCod_reserva(),excursiones.get(i).getNombre_Empresa(),excursiones.get(i).getAforo(),excursiones.get(i).getDia(),excursiones.get(i).getHora(),excursiones.get(i).getVisita()};
+					App.modeloEx.addRow(excursion);
+					}
+				
 					inicio.frameInicio.setSize(1000,615);
 					inicio.frameInicio.setLocationRelativeTo(null);
 					App.app(inicio);
@@ -343,6 +353,14 @@ public class controller {
 					}else {
 						modificarCli.modificar(num,dni,App);
 					}	
+				}
+			});
+			App.btnGenerarXMLEx.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					ArrayList <Excursion> excursiones=new ArrayList<>();
+					Excursion excursion;
+					for(int i=0;i<App.modeloCli.getRowCount();i++) {
+					}
 				}
 			});
 			}

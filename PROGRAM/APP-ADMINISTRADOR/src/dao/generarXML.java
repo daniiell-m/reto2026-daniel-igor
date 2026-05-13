@@ -56,4 +56,7 @@ transformer.transform(source, result);
 		System.out.println(e.getMessage());
 	}
 	}
+	public void generarXMLExcursion(ArrayList <Excursion> excursiones) {
+		
+	}
 }

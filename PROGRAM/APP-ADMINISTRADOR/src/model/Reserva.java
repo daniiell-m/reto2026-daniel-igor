@@ -1,6 +1,6 @@
 package model;
 
-abstract class Reserva {
+public class Reserva {
 	
 	protected int cod_reserva;
 	protected String cif_empresa;
@@ -42,7 +42,7 @@ abstract class Reserva {
 	public void setDni_persona(String dni_persona) {
 		this.dni_persona = dni_persona;
 	}
-	abstract void reservar();
+	//abstract void reservar();
 	@Override
 	public String toString() {
 		return "Reserva [cod_reserva=" + cod_reserva + ", cif_empresa=" + cif_empresa + ", dni_persona=" + dni_persona

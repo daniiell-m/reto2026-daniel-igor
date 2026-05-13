@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET YOUR GUIDE</title>
+    <link rel="stylesheet" href="../CSS/reservas.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="divHeader">
+            <img id="imgHeader" src="../imagenes/logo.avif"><h1>Get Your Guide</h1>
+        </div>
+    </header>
+    <nav>
+            <a href="inicio.html"><div class="navegar">Inicio</div></a>
+            <a href="actividadesTuristicas.html"><div class="navegar">Actividades turisticas</div></a>
+            <a href="reservas.html"><div class="navegar">Reservas</div></a>
+    </nav>
+    <main>
+    <div class="col-4 bg-white border ps-3">
+    <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">DNI</label>
+  <input type="dni" class="form-control w-75" id="exampleFormControlInput1" placeholder="#########">
+</div>
+<div class="mb-3 d-flex flex-column">
+  <label for="exampleFormControlInput1" class="form-label">Tipo de servicios</label>
+   <div>
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+  <label class="form-check-label" for="radioDefault2">
+   Excursion
+  </label>
+  </div>
+  <div>
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+  <label class="form-check-label" for="radioDefault2">
+   Visita
+  </label>
+  </div>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Numero de servicios</label>
+  <input type="email" class="form-control w-75" id="exampleFormControlInput1">
+</div>
+<button type="button" class="btn btn-warning">Enviar</button>
+</div>
+</main>
+</body>
+</html>

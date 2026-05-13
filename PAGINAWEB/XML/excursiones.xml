@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excursiones>
+  <excursion>
+    <cod_reserva>1</cod_reserva>
+    <nombre_empresa>TourMadrid S.L.</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-04-01</dia>
+    <hora>09:00:00</hora>
+    <visita>Visita al Museo del Prado</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>2</cod_reserva>
+    <nombre_empresa>Barcelona Trips S.A.</nombre_empresa>
+    <aforo>15</aforo>
+    <dia>2024-04-02</dia>
+    <hora>10:00:00</hora>
+    <visita>Tour por el Barrio Gotico</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>3</cod_reserva>
+    <nombre_empresa>Sevilla Tour Co.</nombre_empresa>
+    <aforo>25</aforo>
+    <dia>2024-04-03</dia>
+    <hora>09:30:00</hora>
+    <visita>Visita a la Catedral de Sevilla</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>4</cod_reserva>
+    <nombre_empresa>Valencia Tours</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-04-04</dia>
+    <hora>11:00:00</hora>
+    <visita>Tour por la Ciudad de las Artes</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>5</cod_reserva>
+    <nombre_empresa>Bilbao Experience</nombre_empresa>
+    <aforo>12</aforo>
+    <dia>2024-04-05</dia>
+    <hora>10:30:00</hora>
+    <visita>Visita al Museo Guggenheim</visita>
+  </excursion>
+  <!-- ... Contenido truncado por brevedad (filas 6 a 94) ... -->
+  <excursion>
+    <cod_reserva>95</cod_reserva>
+    <nombre_empresa>Sierra Nevada Snow</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-07-05</dia>
+    <hora>11:00:00</hora>
+    <visita>Excursion a Sierra Nevada</visita>
+  </excursion>
+</excursiones>
+Usa el código con precaución.¿Te gustaría que genere el archivo completo con los 95 registros para que lo descargues o necesitas aplicar algún filtro específico (como por ejemplo solo las excursiones de una ciudad concreta)?Las respuestas de la IA pueden contener errores. Más informaciónSiAquí tienes el archivo XML completo con los 95 registros procesados a partir de tu instrucción SQL:xml<?xml version="1.0" encoding="UTF-8"?>
+<excursiones>
+  <excursion>
+    <cod_reserva>1</cod_reserva>
+    <nombre_empresa>TourMadrid S.L.</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-04-01</dia>
+    <hora>09:00:00</hora>
+    <visita>Visita al Museo del Prado</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>2</cod_reserva>
+    <nombre_empresa>Barcelona Trips S.A.</nombre_empresa>
+    <aforo>15</aforo>
+    <dia>2024-04-02</dia>
+    <hora>10:00:00</hora>
+    <visita>Tour por el Barrio Gotico</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>3</cod_reserva>
+    <nombre_empresa>Sevilla Tour Co.</nombre_empresa>
+    <aforo>25</aforo>
+    <dia>2024-04-03</dia>
+    <hora>09:30:00</hora>
+    <visita>Visita a la Catedral de Sevilla</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>4</cod_reserva>
+    <nombre_empresa>Valencia Tours</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-04-04</dia>
+    <hora>11:00:00</hora>
+    <visita>Tour por la Ciudad de las Artes</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>5</cod_reserva>
+    <nombre_empresa>Bilbao Experience</nombre_empresa>
+    <aforo>12</aforo>
+    <dia>2024-04-05</dia>
+    <hora>10:30:00</hora>
+    <visita>Visita al Museo Guggenheim</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>6</cod_reserva>
+    <nombre_empresa>Granada Adventures</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-04-06</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por la Alhambra</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>7</cod_reserva>
+    <nombre_empresa>Toledo Visits</nombre_empresa>
+    <aforo>16</aforo>
+    <dia>2024-04-07</dia>
+    <hora>10:00:00</hora>
+    <visita>Visita a la Catedral de Toledo</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>8</cod_reserva>
+    <nombre_empresa>Malaga Trips</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-04-08</dia>
+    <hora>11:30:00</hora>
+    <visita>Tour por el Centro Historico</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>9</cod_reserva>
+    <nombre_empresa>Zaragoza Tours</nombre_empresa>
+    <aforo>14</aforo>
+    <dia>2024-04-09</dia>
+    <hora>09:00:00</hora>
+    <visita>Visita a la Basilica del Pilar</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>10</cod_reserva>
+    <nombre_empresa>Salamanca Explorers</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-04-10</dia>
+    <hora>10:00:00</hora>
+    <visita>Tour por la Universidad de Salamanca</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>11</cod_reserva>
+    <nombre_empresa>Cordoba Experiences</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-04-11</dia>
+    <hora>09:30:00</hora>
+    <visita>Visita a la Mezquita-Catedral</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>12</cod_reserva>
+    <nombre_empresa>Alicante Sun Tours</nombre_empresa>
+    <aforo>16</aforo>
+    <dia>2024-04-12</dia>
+    <hora>11:00:00</hora>
+    <visita>Tour por el Castillo de Santa Barbara</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>13</cod_reserva>
+    <nombre_empresa>Pamplona Rutas</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-04-13</dia>
+    <hora>10:00:00</hora>
+    <visita>Ruta de los Encierros de San Fermin</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>14</cod_reserva>
+    <nombre_empresa>Palma Tours</nombre_empresa>
+    <aforo>15</aforo>
+    <dia>2024-04-14</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por la Catedral de Palma</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>15</cod_reserva>
+    <nombre_empresa>Las Palmas Explorer</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-04-15</dia>
+    <hora>10:30:00</hora>
+    <visita>Visita al Vegueta y Casa Colon</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>16</cod_reserva>
+    <nombre_empresa>Tenerife Adventures</nombre_empresa>
+    <aforo>12</aforo>
+    <dia>2024-04-16</dia>
+    <hora>11:00:00</hora>
+    <visita>Excursion al Teide</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>17</cod_reserva>
+    <nombre_empresa>San Sebastian Visitas</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-04-17</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por la Parte Vieja</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>18</cod_reserva>
+    <nombre_empresa>Segovia Magic Tours</nombre_empresa>
+    <aforo>14</aforo>
+    <dia>2024-04-18</dia>
+    <hora>10:00:00</hora>
+    <visita>Visita al Acueducto Romano</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>19</cod_reserva>
+    <nombre_empresa>Cadiz Historical</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-04-19</dia>
+    <hora>09:30:00</hora>
+    <visita>Tour por las Murallas y Playas</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>20</cod_reserva>
+    <nombre_empresa>Murcia Explorers</nombre_empresa>
+    <aforo>16</aforo>
+    <dia>2024-04-20</dia>
+    <hora>11:00:00</hora>
+    <visita>Visita a la Catedral de Murcia</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>21</cod_reserva>
+    <nombre_empresa>Valladolid Trips</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-04-21</dia>
+    <hora>10:00:00</hora>
+    <visita>Tour por los Museos Nacionales</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>22</cod_reserva>
+    <nombre_empresa>Santander Sea Tours</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-04-22</dia>
+    <hora>09:00:00</hora>
+    <visita>Paseo Maritimo y Sardinero</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>23</cod_reserva>
+    <nombre_empresa>Oviedo Rutas</nombre_empresa>
+    <aforo>15</aforo>
+    <dia>2024-04-23</dia>
+    <hora>10:30:00</hora>
+    <visita>Tour por el Casco Antiguo</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>24</cod_reserva>
+    <nombre_empresa>Burgos Castilla Tours</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-04-24</dia>
+    <hora>09:00:00</hora>
+    <visita>Visita a la Catedral Gotica</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>25</cod_reserva>
+    <nombre_empresa>Leon Heritage</nombre_empresa>
+    <aforo>12</aforo>
+    <dia>2024-04-25</dia>
+    <hora>11:00:00</hora>
+    <visita>Tour por la Catedral y Barrio Humedo</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>26</cod_reserva>
+    <nombre_empresa>Logroino Wine Tours</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-04-26</dia>
+    <hora>10:00:00</hora>
+    <visita>Ruta del Vino de La Rioja</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>27</cod_reserva>
+    <nombre_empresa>A Coruina Atlantic</nombre_empresa>
+    <aforo>16</aforo>
+    <dia>2024-04-27</dia>
+    <hora>09:30:00</hora>
+    <visita>Tour por la Torre de Hercules</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>28</cod_reserva>
+    <nombre_empresa>Santiago Pilgrim Tours</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-04-28</dia>
+    <hora>10:00:00</hora>
+    <visita>Camino de Santiago Urbano</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>29</cod_reserva>
+    <nombre_empresa>Huelva Experience</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-04-29</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por Minas de Riotinto</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>30</cod_reserva>
+    <nombre_empresa>Jaen Olive Tours</nombre_empresa>
+    <aforo>14</aforo>
+    <dia>2024-04-30</dia>
+    <hora>11:30:00</hora>
+    <visita>Ruta del Aceite de Oliva</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>31</cod_reserva>
+    <nombre_empresa>Almeria Desert Trips</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-05-01</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por el Desierto de Tabernas</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>32</cod_reserva>
+    <nombre_empresa>Extremadura Natural</nombre_empresa>
+    <aforo>15</aforo>
+    <dia>2024-05-02</dia>
+    <hora>10:00:00</hora>
+    <visita>Visita a Merida Romana</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>33</cod_reserva>
+    <nombre_empresa>Cuenca UNESCO Tours</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-05-03</dia>
+    <hora>09:30:00</hora>
+    <visita>Tour por las Casas Colgadas</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>34</cod_reserva>
+    <nombre_empresa>Albacete Central</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-05-04</dia>
+    <hora>11:00:00</hora>
+    <visita>Visita al Museo de la Cuchilleria</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>35</cod_reserva>
+    <nombre_empresa>Ciudad Real Adventures</nombre_empresa>
+    <aforo>16</aforo>
+    <dia>2024-05-05</dia>
+    <hora>10:30:00</hora>
+    <visita>Tour por los Molinos de Viento</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>36</cod_reserva>
+    <nombre_empresa>Pontevedra Rias</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-05-06</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por la Zona Monumental</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>37</cod_reserva>
+    <nombre_empresa>Vigo Ocean Tours</nombre_empresa>
+    <aforo>14</aforo>
+    <dia>2024-05-07</dia>
+    <hora>11:00:00</hora>
+    <visita>Paseo por las Islas Cies</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>38</cod_reserva>
+    <nombre_empresa>Lleida Terres</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-05-08</dia>
+    <hora>10:00:00</hora>
+    <visita>Visita a la Seu Vella</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>39</cod_reserva>
+    <nombre_empresa>Girona Medieval</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-05-09</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por el Casco Medieval</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>40</cod_reserva>
+    <nombre_empresa>Tarragona Roman</nombre_empresa>
+    <aforo>12</aforo>
+    <dia>2024-05-10</dia>
+    <hora>10:30:00</hora>
+    <visita>Ruta Romana por Tarraco</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>41</cod_reserva>
+    <nombre_empresa>Ibiza Island Trips</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-05-11</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por Dalt Vila</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>42</cod_reserva>
+    <nombre_empresa>Menorca Natural</nombre_empresa>
+    <aforo>16</aforo>
+    <dia>2024-05-12</dia>
+    <hora>11:00:00</hora>
+    <visita>Visita a los Talayots Prehistoricos</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>43</cod_reserva>
+    <nombre_empresa>Fuerteventura Wind</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-05-13</dia>
+    <hora>10:00:00</hora>
+    <visita>Tour por las Dunas de Corralejo</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>44</cod_reserva>
+    <nombre_empresa>Lanzarote Volcanic</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-05-14</dia>
+    <hora>09:30:00</hora>
+    <visita>Excursion a Timanfaya</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>45</cod_reserva>
+    <nombre_empresa>Ceuta Estrecho</nombre_empresa>
+    <aforo>14</aforo>
+    <dia>2024-05-15</dia>
+    <hora>11:30:00</hora>
+    <visita>Tour por las Murallas de Ceuta</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>46</cod_reserva>
+    <nombre_empresa>Melilla Multicultural</nombre_empresa>
+    <aforo>12</aforo>
+    <dia>2024-05-16</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por el Casco Historico de Melilla</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>47</cod_reserva>
+    <nombre_empresa>Guadalajara Castles</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-05-17</dia>
+    <hora>09:00:00</hora>
+    <visita>Visita al Palacio del Infantado</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>48</cod_reserva>
+    <nombre_empresa>Teruel Mudejar</nombre_empresa>
+    <aforo>15</aforo>
+    <dia>2024-05-18</dia>
+    <hora>10:00:00</hora>
+    <visita>Tour por las Torres Mudejares</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>49</cod_reserva>
+    <nombre_empresa>Huesca Pyrenees</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-05-19</dia>
+    <hora>09:30:00</hora>
+    <visita>Excursion a Ordesa y Monte Perdido</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>50</cod_reserva>
+    <nombre_empresa>Caceres Heritage</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-05-20</dia>
+    <hora>11:00:00</hora>
+    <visita>Tour por el Casco Monumental</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>51</cod_reserva>
+    <nombre_empresa>Avila Walls</nombre_empresa>
+    <aforo>16</aforo>
+    <dia>2024-05-21</dia>
+    <hora>10:30:00</hora>
+    <visita>Ruta por la Muralla Medieval</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>52</cod_reserva>
+    <nombre_empresa>Soria Numancia</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-05-22</dia>
+    <hora>09:00:00</hora>
+    <visita>Visita al Yacimiento de Numancia</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>53</cod_reserva>
+    <nombre_empresa>Zamora Romanesque</nombre_empresa>
+    <aforo>14</aforo>
+    <dia>2024-05-23</dia>
+    <hora>11:00:00</hora>
+    <visita>Tour por las Iglesias Romanicas</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>54</cod_reserva>
+    <nombre_empresa>Palencia Nature</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-05-24</dia>
+    <hora>10:00:00</hora>
+    <visita>Visita a la Catedral de Palencia</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>55</cod_reserva>
+    <nombre_empresa>Orense Thermal</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-05-25</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por las Termas de Ourense</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>56</cod_reserva>
+    <nombre_empresa>Lugo Wall Tours</nombre_empresa>
+    <aforo>12</aforo>
+    <dia>2024-05-26</dia>
+    <hora>10:30:00</hora>
+    <visita>Paseo por la Muralla Romana</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>57</cod_reserva>
+    <nombre_empresa>Ferrol Naval</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-05-27</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por el Arsenal Militar</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>58</cod_reserva>
+    <nombre_empresa>Jerez Sherry Tours</nombre_empresa>
+    <aforo>16</aforo>
+    <dia>2024-05-28</dia>
+    <hora>11:00:00</hora>
+    <visita>Visita a las Bodegas Historicas</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>59</cod_reserva>
+    <nombre_empresa>Ronda Gorge Trips</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-05-29</dia>
+    <hora>10:00:00</hora>
+    <visita>Tour por el Tajo de Ronda</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>60</cod_reserva>
+    <nombre_empresa>Marbella Glam Tours</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-05-30</dia>
+    <hora>09:30:00</hora>
+    <visita>Tour por el Casco Antiguo de Marbella</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>61</cod_reserva>
+    <nombre_empresa>Benidorm Beach Trips</nombre_empresa>
+    <aforo>14</aforo>
+    <dia>2024-06-01</dia>
+    <hora>11:30:00</hora>
+    <visita>Tour por la Sierra Helada</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>62</cod_reserva>
+    <nombre_empresa>Torremolinos Fun</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-06-02</dia>
+    <hora>09:00:00</hora>
+    <visita>Ruta del Turismo Cultural</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>63</cod_reserva>
+    <nombre_empresa>Sitges Art Tours</nombre_empresa>
+    <aforo>15</aforo>
+    <dia>2024-06-03</dia>
+    <hora>10:00:00</hora>
+    <visita>Tour por Museos y Galerias</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>64</cod_reserva>
+    <nombre_empresa>Vic Medieval</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-06-04</dia>
+    <hora>09:30:00</hora>
+    <visita>Visita al Mercado Medieval</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>65</cod_reserva>
+    <nombre_empresa>Manresa History</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-06-05</dia>
+    <hora>11:00:00</hora>
+    <visita>Tour por la Seu de Manresa</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>66</cod_reserva>
+    <nombre_empresa>Castellon Coast</nombre_empresa>
+    <aforo>16</aforo>
+    <dia>2024-06-06</dia>
+    <hora>10:30:00</hora>
+    <visita>Tour por el Desierto de Las Palmas</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>67</cod_reserva>
+    <nombre_empresa>Gandia Beach</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-06-07</dia>
+    <hora>09:00:00</hora>
+    <visita>Visita al Palau Ducal dels Borja</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>68</cod_reserva>
+    <nombre_empresa>Elche Palm</nombre_empresa>
+    <aforo>14</aforo>
+    <dia>2024-06-08</dia>
+    <hora>11:00:00</hora>
+    <visita>Tour por el Palmeral de Elche</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>69</cod_reserva>
+    <nombre_empresa>Cartagena Rome</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-06-09</dia>
+    <hora>10:00:00</hora>
+    <visita>Ruta Romana por Carthago Nova</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>70</cod_reserva>
+    <nombre_empresa>Merida Rome</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-06-10</dia>
+    <hora>09:00:00</hora>
+    <visita>Visita al Teatro y Anfiteatro Romano</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>71</cod_reserva>
+    <nombre_empresa>Plasencia Cathedral</nombre_empresa>
+    <aforo>12</aforo>
+    <dia>2024-06-11</dia>
+    <hora>10:30:00</hora>
+    <visita>Tour por la Catedral y Centro Historico</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>72</cod_reserva>
+    <nombre_empresa>Trujillo Conquistadors</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-06-12</dia>
+    <hora>09:00:00</hora>
+    <visita>Ruta de los Conquistadores</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>73</cod_reserva>
+    <nombre_empresa>Aranjuez Royal</nombre_empresa>
+    <aforo>16</aforo>
+    <dia>2024-06-13</dia>
+    <hora>11:00:00</hora>
+    <visita>Tour por los Jardines Reales</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>74</cod_reserva>
+    <nombre_empresa>Alcala Cervantes</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-06-14</dia>
+    <hora>10:00:00</hora>
+    <visita>Ruta de Cervantes en Alcala</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>76</cod_reserva>
+    <nombre_empresa>Vitoria Green City</nombre_empresa>
+    <aforo>14</aforo>
+    <dia>2024-06-16</dia>
+    <hora>11:30:00</hora>
+    <visita>Tour por los Anillos Verdes</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>77</cod_reserva>
+    <nombre_empresa>Bayona Medieval</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-06-17</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por el Casco Historico de Baiona</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>78</cod_reserva>
+    <nombre_empresa>Tui Cathedral</nombre_empresa>
+    <aforo>15</aforo>
+    <dia>2024-06-18</dia>
+    <hora>10:00:00</hora>
+    <visita>Visita a la Catedral de Tui</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>79</cod_reserva>
+    <nombre_empresa>Baeza Renaissance</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-06-19</dia>
+    <hora>09:30:00</hora>
+    <visita>Tour por Baeza Renacentista</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>80</cod_reserva>
+    <nombre_empresa>Ubeda Renaissance</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-06-20</dia>
+    <hora>11:00:00</hora>
+    <visita>Tour por el Conjunto Historico de Ubeda</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>81</cod_reserva>
+    <nombre_empresa>Priego Baroque</nombre_empresa>
+    <aforo>16</aforo>
+    <dia>2024-06-21</dia>
+    <hora>10:30:00</hora>
+    <visita>Tour por el Baroco Cordobes</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>82</cod_reserva>
+    <nombre_empresa>Antequera Dolmens</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-06-22</dia>
+    <hora>09:00:00</hora>
+    <visita>Visita a los Dolmenes Prehistoricos</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>83</cod_reserva>
+    <nombre_empresa>Nerja Cave Tours</nombre_empresa>
+    <aforo>14</aforo>
+    <dia>2024-06-23</dia>
+    <hora>11:00:00</hora>
+    <visita>Tour por las Cuevas de Nerja</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>84</cod_reserva>
+    <nombre_empresa>Frigiliana White Village</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-06-24</dia>
+    <hora>10:00:00</hora>
+    <visita>Paseo por el Pueblo Blanco</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>85</cod_reserva>
+    <nombre_empresa>Arcos Pueblos Blancos</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-06-25</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por Arcos de la Frontera</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>86</cod_reserva>
+    <nombre_empresa>Vejer White Town</nombre_empresa>
+    <aforo>12</aforo>
+    <dia>2024-06-26</dia>
+    <hora>10:30:00</hora>
+    <visita>Visita al Casco Historico de Vejer</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>87</cod_reserva>
+    <nombre_empresa>Zahara Adventures</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-06-27</dia>
+    <hora>09:00:00</hora>
+    <visita>Ruta por la Sierra de Cadiz</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>88</cod_reserva>
+    <nombre_empresa>Grazalema Natural</nombre_empresa>
+    <aforo>16</aforo>
+    <dia>2024-06-28</dia>
+    <hora>11:00:00</hora>
+    <visita>Tour por el Parque Natural</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>89</cod_reserva>
+    <nombre_empresa>Carmona Walls</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-06-29</dia>
+    <hora>10:00:00</hora>
+    <visita>Visita a la Carmona Romana</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>90</cod_reserva>
+    <nombre_empresa>Ecija Towers</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-06-30</dia>
+    <hora>09:30:00</hora>
+    <visita>Tour por las Torres Barrocas</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>91</cod_reserva>
+    <nombre_empresa>Osuna Baroque</nombre_empresa>
+    <aforo>14</aforo>
+    <dia>2024-07-01</dia>
+    <hora>11:30:00</hora>
+    <visita>Visita a la Colegiata de Osuna</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>92</cod_reserva>
+    <nombre_empresa>Medina Azahara</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-07-02</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por la Ciudad Califal</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>93</cod_reserva>
+    <nombre_empresa>Italica Rome</nombre_empresa>
+    <aforo>15</aforo>
+    <dia>2024-07-03</dia>
+    <hora>10:00:00</hora>
+    <visita>Visita al Yacimiento de Italica</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>94</cod_reserva>
+    <nombre_empresa>Doinana Nature</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-07-04</dia>
+    <hora>09:30:00</hora>
+    <visita>Excursion por el Parque de Doinana</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>95</cod_reserva>
+    <nombre_empresa>Sierra Nevada Snow</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-07-05</dia>
+    <hora>11:00:00</hora>
+    <visita>Excursion a Sierra Nevada</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>96</cod_reserva>
+    <nombre_empresa>Alpujarra Villages</nombre_empresa>
+    <aforo>16</aforo>
+    <dia>2024-07-06</dia>
+    <hora>10:30:00</hora>
+    <visita>Ruta por los Pueblos de la Alpujarra</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>97</cod_reserva>
+    <nombre_empresa>Cabo de Gata</nombre_empresa>
+    <aforo>20</aforo>
+    <dia>2024-07-07</dia>
+    <hora>09:00:00</hora>
+    <visita>Tour por el Parque Natural Cabo de Gata</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>98</cod_reserva>
+    <nombre_empresa>Tabernas Desert</nombre_empresa>
+    <aforo>14</aforo>
+    <dia>2024-07-08</dia>
+    <hora>11:00:00</hora>
+    <visita>Excursion al Desierto de Tabernas</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>99</cod_reserva>
+    <nombre_empresa>Alcazar Jerez Tours</nombre_empresa>
+    <aforo>18</aforo>
+    <dia>2024-07-09</dia>
+    <hora>10:00:00</hora>
+    <visita>Visita al Alcazar de Jerez</visita>
+  </excursion>
+  <excursion>
+    <cod_reserva>100</cod_reserva>
+    <nombre_empresa>CaminoSantiago Rutas</nombre_empresa>
+    <aforo>22</aforo>
+    <dia>2024-07-10</dia>
+    <hora>09:00:00</hora>
+    <visita>Etapa Final del Camino de Santiago</visita>
+  </excursion>
+</excursiones>
